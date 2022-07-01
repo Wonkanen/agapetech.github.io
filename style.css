@@ -1,0 +1,50 @@
+body{text-align: center;}
+header{
+	min-height: 100vh;
+	background: rgba(1,1,1,1) center/cover  fixed no-repeat;
+	background-image: url("image.jpg"); 
+ }
+ .topic{font-size: 1.3rem;}
+ .top{
+ 	text-transform: uppercase;
+	color: white;
+	background:rgba(0,0,0,0.7);
+	padding: 1rem;
+}
+.top a{
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+	padding: 1rem;
+	letter-spacing: 5px;
+}
+.banner{
+	font-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	padding: 4rem;
+}
+.top a:hover{
+	opacity: 0.5;
+	background:rgba(0,0,0,0.5);
+}
+.search-input{
+	font-size: 2rem;
+	border-radius: 50px;
+	border-style: none;
+	border-color: white;
+	bord
+}
+.search-button{
+	font-size: 2rem;
+	border-radius: 50px;
+	border-style:none;
+}
+.search{
+	background-position: center;
+	width: 600px;
+	margin: 10px;
+	background-color: white;
+	border-radius: 50px;
+
+}
